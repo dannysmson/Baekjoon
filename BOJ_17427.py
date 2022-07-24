@@ -1,4 +1,5 @@
 # 약수의 합2 (#17427)
+
 import sys
 N = int(sys.stdin.readline())
 tot = 0
