@@ -1,3 +1,5 @@
+# 수 찾기 (#1920)
+# 이진탐색 구현
 import sys
 def binary_search(arr, l, r, key):
     if l > r: return 0
@@ -12,4 +14,3 @@ arr2 = list(map(int, sys.stdin.readline().split()))
 arr1.sort()
 for i in range(M):
     print(binary_search(arr1, 0, N - 1, arr2[i]))
-# 1 2 3 4 5
